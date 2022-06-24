@@ -5,7 +5,6 @@ import time
 def get_logo(up,chat,text,):
 	true=False
 	while (true!=True):
-		time.sleep(00.1)
 		try:
 			up.sendPhoto(chat['object_guid'], "http://api.hajiapi.tk/ephoto360?type=text&id="+str(randint(1,138))+"&text="+text[5:] , caption=('꙰꙰꙰꙰꙰꙰꙰𝑻𝒉𝒆 𝒍𝒐𝒈𝒐 𝒚𝒐𝒖 𝒘𝒂𝒏𝒕 𝒘𝒂𝒔 𝒄𝒓𝒆𝒂𝒕𝒆𝒅 ꙰\n\nヅᴾˡᵉᵃˢᵉ ˢᵘᵇˢᶜʳⁱᵇᵉ ᵗᵒ ᵒᵘʳ ᶜʰᵃⁿⁿᵉˡ₪\n\n𖤍 @logomakersupport ʝօɨռ'), message_id=chat['last_message']['message_id'])
 			true=True
